@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="img/kettlebell.png" type="icon">
+</head>
+
+<body>
+    <header class="cabecalho row">
+        <div class="col-sm-8">
+            <h2 class="saude">Corpo saudável,</h2>
+            <h4 class="mente">mente em paz</h4>
+        </div>
+        <div class="contaiiner col-sm-3 principal">
+            <h2>Procurando</h2>
+            <p>tratamento?</p>
+            <h2>Crie sua</h2>
+            <p>conta gratuita</p>
+            <div class="input-group">
+                <label for="name">Insira seu email:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="input-group">
+                <label for="password">Insira sua senha:</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <button class="submit-btn">Entrar ➜</button>
+        </div>
+    </header>
+    <main>
+        <div class="espaco-branco">
+            <div class="div">
+                <div class="col-sm-6 subtitulo">
+                    <h2 class="titulado">
+                        Descubra formas eficazes de gerenciar seu
+                        peso e evitar o ganho excessivo
+                    </h2>
+                    <b class="titulado">
+                        A obesidade é uma condição complexa, influenciada por diversos fatores que podem fazer com
+                        que
+                        você ganhe ou recupere o peso perdido. Tudo depende de como seu corpo responde à perda de
+                        peso.
+                        No entanto, mantenha a confiança e saiba que você não precisa enfrentar essa jornada
+                        sozinho(a).
+                    </b>
+                </div>
+
+                <div class="col-sm-6 ">
+                    <br>
+                    <b>
+                        Trabalhe em parceria com seu médico para controlar a obesidade e alcançar os
+                        benefícios para a
+                        saúde associados à perda de peso. Inicie uma jornada personalizada de controle de peso,
+                        ajustada<br>
+                        às suas metas, necessidades e estilo de vida.</b>
+                </div>
+                <div>
+                    <h1 class="titulado2">
+                        CALCULADORA DE IMC:
+                    </h1>
+                </div>
+            </div>
+            <div class="contaiiiner princip">
+                <div class="imc-calculator">
+                    <p>Calcule agora o seu Índice de Massa Corporal (IMC) e explore as diferentes classificações, além
+                        dos potenciais riscos à saúde associados a cada uma.</p>
+                    <h6 class="alturaa">Insira sua altura (cm):</h6>
+                    <h6 class="pesoo">Insira sua altura (kg):</h6>
+                    <input type="number" id="altura" placeholder="">
+                    <input type="number" id="peso" placeholder="">
+                    <button onclick="calcularIMC()">Calcular</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="fixed-bottom">
+        <img src="img/logo-foto-removebg-preview.png" width="70em">
+        <h6>&copy;Todos direitos reservados a CalculeFit</h6>
+    </footer>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</html>
