@@ -18,20 +18,30 @@ body {
     margin-left: 90%;
 }
 
-.col-sm-8 {
+.col-sm-7 {
     margin-right: 50%;
-    height: 90%;
+    height: 100%;
 
 }
 
-.saude{
-    margin-right: 70%;
+.saude {
+    margin-right: 90%;
+    height: 100%;
     color: #5200FF;
 }
 
 .mente {
-    margin-right: 70%;
+    margin-right: 90%;
+    height: 100%;
     color: rgba(82, 0, 255, 0.51)
+}
+
+.caminho{
+    color: white;
+}
+
+.imc{
+    color: rgb(255, 255, 255, 0.51);
 }
 
 .cabecalho {
